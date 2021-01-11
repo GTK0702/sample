@@ -1,0 +1,377 @@
+@charset "UTF-8";
+
+a{
+    text-decoration:none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    }
+
+body{
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.header{
+    height:55px;
+}
+
+.header span{
+    color:rgb(228, 183, 68);
+}
+
+li{
+    list-style:none;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.header-logo{
+    float:left;
+    font-size:0;
+    line-height:100%;  /*ロゴの隙間をなくす.親クラスのfontを0,line-heightを100%へ.*/
+    margin:0 30px;
+}
+
+.header h1{
+    font-size:32px;
+}
+
+.header p{
+    font-size:15px;
+    font-weight:bold;
+}
+
+.header-list li{
+    float:right;
+    padding:13px 20px;
+}
+
+.under{
+    text-decoration:underline;
+}
+
+.title{
+    margin:0 auto;
+    background-image:url(images/AdobeStock_259503912.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:900px;
+    border-bottom:solid;
+  }
+
+.title-container{
+    padding-top:5%;
+    margin-left:10%;
+}
+
+.title-contain{
+    padding-bottom:20px;
+    font-size:25px;
+}
+
+.title-contain-1{
+    background-color:black;
+    grid-template-rows:200px;
+    width:50%;
+    padding:0 20px 0 20px;
+}
+
+.title-gold{
+    color:rgb(228, 183, 68);; 
+}
+
+.gold-bold{
+    color:rgb(228, 183, 68);;
+    background-color:white;
+    border-radius:5px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.saisoku-senten{
+    margin-top:30px;
+    font-size:40px;
+    color:white;
+}
+
+.title-yoko{
+    margin-left:5%;
+    font-size:25px;
+}
+
+.title-yoko-1{
+
+    padding-left:10px;
+}
+
+.title-yoko-1 p{
+    padding-left:10px;
+}
+
+.btn-info{
+    padding:15px 40px;
+    color:white;
+    font-size:20px;
+    display:inline-block;
+    opacity:1.0;
+    border-radius:5px;
+    background-color:rgb(163, 51, 51);
+    transition:color .5s;
+}
+
+.btn-info:hover{
+    color:black;
+}
+
+.d365days{
+    padding-top:0;
+    color:rgb(163, 51, 51);
+    font-weight:bold;
+    text-shadow: rgb(255, 255, 255) 5px 0px 0px, rgb(255, 255, 255) 4.90033px 0.993347px 0px, rgb(255, 255, 255) 4.60531px 1.94709px 0px, rgb(255, 255, 255) 4.12668px 2.82321px 0px, rgb(255, 255, 255) 3.48353px 3.58678px 0px, rgb(255, 255, 255) 2.70151px 4.20735px 0px, rgb(255, 255, 255) 1.81179px 4.6602px 0px, rgb(255, 255, 255) 0.849836px 4.92725px 0px, rgb(255, 255, 255) -0.145998px 4.99787px 0px, rgb(255, 255, 255) -1.13601px 4.86924px 0px, rgb(255, 255, 255) -2.08073px 4.54649px 0px, rgb(255, 255, 255) -2.94251px 4.04248px 0px, rgb(255, 255, 255) -3.68697px 3.37732px 0px, rgb(255, 255, 255) -4.28444px 2.57751px 0px, rgb(255, 255, 255) -4.71111px 1.67494px 0px, rgb(255, 255, 255) -4.94996px 0.7056px 0px, rgb(255, 255, 255) -4.99147px -0.291871px 0px, rgb(255, 255, 255) -4.83399px -1.27771px 0px, rgb(255, 255, 255) -4.48379px -2.2126px 0px, rgb(255, 255, 255) -3.95484px -3.05929px 0px, rgb(255, 255, 255) -3.26822px -3.78401px 0px, rgb(255, 255, 255) -2.4513px -4.35788px 0px, rgb(255, 255, 255) -1.53666px -4.75801px 0px, rgb(255, 255, 255) -0.560763px -4.96846px 0px, rgb(255, 255, 255) 0.437495px -4.98082px 0px, rgb(255, 255, 255) 1.41831px -4.79462px 0px, rgb(255, 255, 255) 2.34258px -4.41727px 0px, rgb(255, 255, 255) 3.17346px -3.86382px 0px, rgb(255, 255, 255) 3.87783px -3.15633px 0px, rgb(255, 255, 255) 4.4276px -2.32301px 0px, rgb(255, 255, 255) 4.80085px -1.39708px 0px, rgb(255, 255, 255) 4.98271px -0.415447px 0px;
+}
+
+.prom{
+    padding-top:0;
+}
+
+.prom-content{
+    float:right;
+    width:18%;
+    padding-right:1px;
+}
+
+#zengyo{
+    height:200px;
+    width:190px;
+}
+
+#tesu{
+    height:200px;
+    width:190px;
+}
+
+
+#tyotatu{
+    height:200px;
+    width:190px;
+}
+
+.oonayami{
+    font-size:0;
+}
+
+.onayami{
+    background-color:white;
+    font-size:15px;
+    height:55px;
+    text-align:center;
+    border-bottom:solid;
+    padding-bottom:5px;
+}
+
+.onayami-iroiro{
+    font-size:16px;
+    background-image:url(images/nayanda2.jpg);
+    background-position:center bottom;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:1200px;
+    border-bottom:solid;
+}
+
+.onayami-iroiroi{
+    padding-top:5%;
+    padding-left:10%;
+}
+
+.onayami-iroiroi2{
+    padding-left:10%;
+}
+
+.nayamii{
+    background-color:white;
+    width:360px;
+    margin-bottom:3%;
+    padding:10px 0 10px 10px;
+    border-radius:10px;
+}
+
+.onayami-1{
+
+}
+
+.onayami-2{
+    margin-left:50px;
+}
+
+.onayami-4{
+    margin-left:50px;
+}
+
+.onayami-6{
+    margin-left:50px;
+}
+
+.onayami-8{
+    padding-top:5%;
+    font-size:40px;
+    color:white;
+    text-align:center;
+    text-shadow: rgb(228, 183, 68); 4px 0px 0px, rgb(228, 183, 68); 3.87565px 0.989616px 0px, rgb(228, 183, 68); 3.51033px 1.9177px 0px, rgb(218, 165, 32) 2.92676px 2.72656px 0px, rgb(218, 165, 32) 2.16121px 3.36588px 0px, rgb(218, 165, 32) 1.26129px 3.79594px 0px, rgb(218, 165, 32) 0.282949px 3.98998px 0px, rgb(218, 165, 32) -0.712984px 3.93594px 0px, rgb(218, 165, 32) -1.66459px 3.63719px 0px, rgb(218, 165, 32) -2.51269px 3.11229px 0px, rgb(218, 165, 32) -3.20457px 2.39389px 0px, rgb(218, 165, 32) -3.69721px 1.52664px 0px, rgb(218, 165, 32) -3.95997px 0.56448px 0px, rgb(218, 165, 32) -3.97652px -0.432781px 0px, rgb(218, 165, 32) -3.74583px -1.40313px 0px, rgb(218, 165, 32) -3.28224px -2.28625px 0px, rgb(218, 165, 32) -2.61457px -3.02721px 0px, rgb(218, 165, 32) -1.78435px -3.57996px 0px, rgb(218, 165, 32) -0.843183px -3.91012px 0px, rgb(218, 165, 32) 0.150409px -3.99717px 0px, rgb(218, 165, 32) 1.13465px -3.8357px 0px, rgb(218, 165, 32) 2.04834px -3.43574px 0px, rgb(218, 165, 32) 2.83468px -2.82216px 0px, rgb(218, 165, 32) 3.44477px -2.03312px 0px, rgb(218, 165, 32) 3.84068px -1.11766px 0px, rgb(218, 165, 32) 3.9978px -0.132717px 0px;
+  }
+
+  .onayami-9{
+      color:white;
+      background-color:rgb(228, 183, 68);;
+      font-size:15px;
+      width:100%;
+      height:45px;
+      text-align:center;
+      display:inline-block;
+      padding-bottom:2%;
+    }
+
+    .three-step{
+        border-top:solid;
+        height:1000px;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            background-color: #ffffff;
+            opacity: 1.0;
+            z-index: -1;
+    }
+    .Diagonal_v2 {
+        background: repeating-linear-gradient( -45deg,transparent 0 5px, 
+        rgb(218, 207, 207) 5px 10px);
+      }
+
+    .sikin{
+        text-align:center;
+        font-size:40px;
+    }
+    .three-step-font{
+        color:rgb(228, 183, 68);;
+        font-size:40px;
+    }
+    .three{
+        font-size:70px;
+    }
+    .three-step-content{
+        float:left;
+        background-color:rgb(255, 255, 253);
+        height:700px;
+        width:17%;
+        padding-right:35px;
+        margin-left:10%;
+    }
+    .three-step-content h1{
+        padding-left:29%;
+        font-size:40px;
+    }
+    .three-step-content h2{
+        text-align:center;
+        font-size:30px;
+    }
+
+    .three-step-content p{
+        padding-left:7.5%;
+        font-size:24px;
+        }
+
+    #step1{
+        width:100%;
+        padding-left:6%;
+    }
+    #step2{
+        width:100%;
+        padding-left:6%;
+    }
+    #step3{
+        width:100%;
+        padding-left:6%;
+    }
+    .step1 span{
+        color:rgb(228, 183, 68);;
+        font-size:50px;
+    }
+    .step2 span{
+        color:rgb(228, 183, 68);;
+        font-size:50px;
+    }
+    .step3 span{
+        color:rgb(228, 183, 68);;
+        font-size:50px;
+    }
+
+    .claim{
+        min-height:100vh;
+    }
+
+    #otoiawase{
+        margin-left:10%;
+    }
+
+    #hissu{
+        margin-left:10%;
+    }
+
+    .form{
+        margin-left:10%;
+    }
+
+    label{
+        font-size:15px;
+        display:block;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea{
+        background-color:white;
+        border:1px #9b9898 solid;
+        font-size:1rem;
+        margin-bottom:20px;
+    }
+    input[type="text"],
+    input[type="email"]{
+        width:100%;
+        max-width:480px;
+    }
+    
+textarea{
+    width:100%;
+    max-width:480px;
+    height:6rem;
+}
+input[type="submit"]{
+    border:none;
+    cursor:pointer;
+    line-height:1;
+    padding:15px 40px;
+    color:white;
+    font-size:20px;
+    display:inline-block;
+    opacity:1.0;
+    border-radius:5px;
+    background-color:rgb(163, 51, 51);
+    transition:color .5s;
+}
+
+.foooooter{
+    text-align:center;
+
+    background-color:rgb(78, 26, 26);
+}
+
+.foooooter p{
+    color:white;
+}
